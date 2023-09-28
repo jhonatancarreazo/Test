@@ -1,0 +1,29 @@
+:root{
+    --primary_color: #12645B;
+    --secondary_color: #D73E5A;
+    --tercery_color: #FFFFFF;
+
+}
+*{
+    list-style: none;
+    
+}
+body{
+    background-color: var(--primary_color);
+    color: var(--tercery_color);
+}
+
+
+#map-container-google-2{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+.map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
